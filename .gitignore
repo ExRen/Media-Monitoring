@@ -1,0 +1,49 @@
+# Environment Variables
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+
+# Node.js
+node_modules/
+
+# TypeScript build output
+dist/
+
+# Model files (terlalu besar untuk Git ~497MB)
+asabri_sentiment_model/
+
+# Output data (generated)
+output/
+uploads/
+storage/
+hasil_riset.csv
+
+# Generated output CSV/JSON files
+news_*.csv
+news_*.json
+
+# Debug files
+debug_*.txt
+
+# Misc cache
+.spotdl-cache
+
+# Generated page images
+page*.png
+
+# PDF documents (binary / internal)
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

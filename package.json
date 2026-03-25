@@ -1,0 +1,34 @@
+{
+  "name": "crawlee-asabri-news",
+  "version": "1.0.0",
+  "description": "News crawler for Tempo.co ASABRI articles using Crawlee",
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/playwright-crawler.js",
+    "start:cheerio": "node dist/main.js",
+    "start:simple": "node dist/simple-crawler.js",
+    "build": "tsc",
+    "postinstall": "npx playwright install chromium"
+  },
+  "keywords": [
+    "crawlee",
+    "scraper",
+    "news",
+    "tempo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "crawlee": "^3.11.0",
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

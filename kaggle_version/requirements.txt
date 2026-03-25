@@ -1,0 +1,13 @@
+streamlit
+gnews
+newspaper3k
+googlenewsdecoder
+selenium
+transformers
+torch
+wordcloud
+matplotlib
+pandas
+pyngrok
+lxml[html_clean]
+openpyxl
